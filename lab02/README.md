@@ -8,12 +8,12 @@
 
 ### Como compilar o programa na plataforma disponibilizada
 ```
-
+gcc nome_arquivo.c -o nome_arquivo
 ```
 
 ### Como executar o programa
 ```
-
+time ./nome_arquivo
 ```
 
 ### Como comprovar que os resultados propostos foram alcançados
