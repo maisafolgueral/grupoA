@@ -8,15 +8,17 @@
 
 ### Como compilar o programa na plataforma disponibilizada
 ```
-
+gcc memory.c -0 memory
 ```
 
 ### Como executar o programa
 ```
-
+./memory
 ```
 
 ### Como comprovar que os resultados propostos foram alcançados
-```
-
+A saída do programa condiz com o resultado esperado conforme proposto pela atividade
+``` 
+Valor inicial = 1
+Valor final = 12
 ```
