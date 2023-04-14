@@ -1,4 +1,4 @@
-# Lab03
+# Lab04 (Parte 1)
 
 |NOME                           |TIA                 |
 |-------------------------------|--------------------|
@@ -17,7 +17,7 @@ time ./nome_arquivo
 ```
 
 ### Como comprovar que os resultados propostos foram alcançados
-Ao compara os código de multiprocessado e serial através do comando time do Linux, podemos verificar que o multiprocessado foi executado de forma mais lenta. <br/>
+Ao comparar os códigos de multiprocessado e serial através do comando time do Linux, podemos verificar que o multiprocessado foi executado de forma mais lenta. <br/>
 
 Execução serial:
 ```
