@@ -17,7 +17,7 @@ time ./nome_arquivo
 ```
 
 ### Como comprovar que os resultados propostos foram alcançados
-Ao compara os código de multiprocessado e serial através do comando time do Linux, podemos verificar que o multiprocessado tende a ser mais lento. <br/>
+Ao compara os código de multiprocessado e serial através do comando time do Linux, podemos verificar que o multiprocessado foi executado de forma mais lenta. <br/>
 
 Execução serial:
 ```
