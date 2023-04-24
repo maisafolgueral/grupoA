@@ -19,23 +19,12 @@ time ./nome_arquivo
 ### Como comprovar que os resultados propostos foram alcançados
 Ao comparar os códigos de multiprocessado e serial através do comando time do Linux, podemos verificar que o multiprocessado foi executado de forma mais lenta. <br/>
 
-Execução serial:
-```
-real    
-user    
-sys     
-```
-
-Execução multiprocessado:
-```
-real    
-user    
-sys     
-```
+<img src="https://github.com/maisafolgueral/grupoA/blob/main/lab05-pt1/print.PNG?raw=true"/> <br/>
 
 Cálculo Speedup:
 ```
 Speedup = Tempo em 1 CPU / Tempo. em p CPUs
+Speedup = 0.001/0.004 = 0.25
 
 ```
 
