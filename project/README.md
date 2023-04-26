@@ -17,7 +17,8 @@ time ./nome_arquivo
 ```
 
 ### Como comprovar que os resultados propostos foram alcançados
-<img src=""/> <br/>
+<img src="https://github.com/maisafolgueral/grupoA/blob/main/project/print-serial.PNG?raw=true"/> <br/>
+
 Cálculo Speedup:
 ```
 Speedup = Tempo em 1 CPU / Tempo. em p CPUs
