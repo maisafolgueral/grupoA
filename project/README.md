@@ -45,3 +45,20 @@ Número máximo de casa decimais alcançadas:
 Total = 62
 Corretos = 18
 ```
+
+### Decomposição de tarefas
+Quais são as tarefas no caminho crítico para cada grafo de dependência? Para responder a pergunta, apresente um DAG do seu projeto.
+```
+```
+Qual é o limite inferior do tempo de execução paralela para cada decomposição?
+```
+```
+Quantos processadores são necessários para se conseguir o tempo mínimo de execução?
+```
+```
+Qual é o grau máximo de concorrência?
+```
+```
+Qual é o paralelismo médio?
+```
+```
