@@ -48,7 +48,9 @@ Corretos = 18
 
 ### Decomposição de tarefas
 1. Quais são as tarefas no caminho crítico para cada grafo de dependência? Para responder a pergunta, apresente um DAG do seu projeto.
-
+```
+As tarefas no caminho crítico são: T1, T2, T3, T4, T5, T6 e T7. Isto pode ser visualizado no DAG abaixo:
+```
 <img src="https://github.com/maisafolgueral/grupoA/blob/main/project/img/202305110046-dag.PNG?raw=true" height="700"/> <br/>
 
 2. Qual é o limite inferior do tempo de execução paralela para cada decomposição?
