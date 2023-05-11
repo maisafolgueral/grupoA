@@ -47,18 +47,32 @@ Corretos = 18
 ```
 
 ### Decomposição de tarefas
-Quais são as tarefas no caminho crítico para cada grafo de dependência? Para responder a pergunta, apresente um DAG do seu projeto.
+1. Quais são as tarefas no caminho crítico para cada grafo de dependência? Para responder a pergunta, apresente um DAG do seu projeto.
+
+<img src="https://github.com/maisafolgueral/grupoA/blob/main/project/img/202305110046-dag.PNG?raw=true" height="700"/> <br/>
+
+2. Qual é o limite inferior do tempo de execução paralela para cada decomposição?
 ```
+O limite inferior é calculado utilizando: tempo para executar em P workers (processadores); 
+tempo para a execução serial (em 1 worker); tempo para percorrer o caminho crítico.
 ```
-Qual é o limite inferior do tempo de execução paralela para cada decomposição?
+<img src="https://github.com/maisafolgueral/grupoA/blob/main/project/img/202305110147-formula.png?raw=true" width="600"/> <br/>
+
+3. Quantos processadores são necessários para se conseguir o tempo mínimo de execução?
 ```
+Quanto mais processadores utilizados para o processamento, menor tende a ser o tempo de execução. 
+Assim, o programa deve tirar o máximo proveito de todos os processadores disponíveis.
 ```
-Quantos processadores são necessários para se conseguir o tempo mínimo de execução?
+4. Qual é o grau máximo de concorrência?
 ```
+O grau máximo de concorrência é igual ao número máximo de tarefas concorrentes em qualquer ponto da execução. 
+Em nosso programa, as tarefas concorrentes são executadas através de threads. 
+Portanto, com 2 threads o grau máximo de concorrência é 2.
 ```
-Qual é o grau máximo de concorrência?
+5. Qual é o paralelismo médio?
 ```
-```
-Qual é o paralelismo médio?
-```
+Para calcularmos o paralelismo médio, levamos em consideração o total de trabalho e o comprimento de caminho crítico. 
+Em nosso programa, conforme apresentado no DAG, a razão do total de trabalho (10) para o comprimento de caminho crítico (7),
+isto é, o paralelismo médio equivale a 1,43. Considere, para todos os exemplos, que todas as tarefas consomem uma unidade de 
+tempo para execução.
 ```
