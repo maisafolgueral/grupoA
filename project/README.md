@@ -27,12 +27,12 @@ time ./nome_arquivo
 Serial:
 <br/>
 
-<img src="https://github.com/maisafolgueral/grupoA/blob/main/project/print-serial.PNG?raw=true" width="600"/> <br/>
+<img src="https://github.com/maisafolgueral/grupoA/blob/main/project/img/202305260000-serial.PNG?raw=true" width="600"/> <br/>
 
 Paralelo:
 <br/>
 
-<img src="https://github.com/maisafolgueral/grupoA/blob/main/project/print-paralelo.PNG?raw=true" width="600"/> <br/>
+<img src="https://github.com/maisafolgueral/grupoA/blob/main/project/img/202305060000-paralelo.PNG?raw=true" width="600"/> <br/>
 
 Cálculo Speedup:
 ```
