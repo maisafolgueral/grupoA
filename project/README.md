@@ -97,5 +97,5 @@ tempo para execução.
 <br/>
 
 ### Notas importantes
-- Inicialmente, estávamos utilizando bibliotecas e tipos de dados nativos da linguagem C. No entento não era possível ultrapassar 18 casas decimais corretas. Por isso optamos por utilizar uma biblioteca específica para cálculos com números maiores, nesse caso a biblioteca GMP.
+- Inicialmente, estávamos utilizando bibliotecas e tipos de dados nativos da linguagem C. No entanto, não era possível ultrapassar 18 casas decimais corretas. Por isso optamos por utilizar uma biblioteca específica para cálculos com números maiores, nesse caso a biblioteca GMP.
 - Para verificar a corretude dos dígitos (casas decimais), utilizamos como referência uma sequência contendo 2 milhões de dígitos disponível no site da NASA. Esta sequência está disponível em: https://apod.nasa.gov/htmltest/gifcity/e.2mil
