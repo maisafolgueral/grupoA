@@ -6,16 +6,19 @@
 |Maisa Folgueral                |32121385            |
 |Raphael Vinicius Costa Alencar |32195451            |
 
+### Como instalar a biblioteca utilizada<br/>
+```
+sudo apt-get install libmpfr-dev
+```
+
 ### Como compilar o programa na plataforma disponibilizada
 Serial:
-<br/>
 ```
-gcc nome_arquivo.c -o nome_arquivo
+gcc nome_arquivo.c -o nome_arquivo -lm -lgmp
 ```
 Paralelo:
-<br/>
 ```
-gcc nome_arquivo.c -o nome_arquivo -fopenmp -lm
+gcc nome_arquivo.c -o nome_arquivo -fopenmp -lm -lgmp
 ```
 
 ### Como executar o programa
@@ -27,23 +30,25 @@ time ./nome_arquivo
 Serial:
 <br/>
 
-<img src="https://github.com/maisafolgueral/grupoA/blob/main/project/img/202305260000-serial.PNG?raw=true" width="600"/> <br/>
+<img src="https://github.com/maisafolgueral/grupoA/blob/main/project/img/202305120102-serial.png?raw=true" width="600"/> <br/>
+Resultado do Cálculo: https://github.com/maisafolgueral/grupoA/blob/main/project/output-serial.txt
 
 Paralelo:
 <br/>
 
-<img src="https://github.com/maisafolgueral/grupoA/blob/main/project/img/202305060000-paralelo.PNG?raw=true" width="600"/> <br/>
+<img src="https://github.com/maisafolgueral/grupoA/blob/main/project/img/202305121958-paralelo.png?raw=true" width="600"/> <br/>
+Resultado do Cálculo: https://github.com/maisafolgueral/grupoA/blob/main/project/output-paralelo.txt
 
 Cálculo Speedup:
 ```
 Speedup = Tempo em 1 CPU / Tempo. em p CPUs
-Speedup = 0.001 / 0.001 = 1
+Speedup = 9103.388 / 8274.613 = 1.100
 ```
 
 Número máximo de casa decimais alcançadas:
 ```
-Total = 62
-Corretos = 18
+Total = 1000000
+Corretas = 973357
 ```
 
 ### Decomposição de tarefas
@@ -78,3 +83,7 @@ Em nosso programa, conforme apresentado no DAG, a razão do total de trabalho (1
 isto é, o paralelismo médio equivale a 1,43. Considere, para todos os exemplos, que todas as tarefas consomem uma unidade de 
 tempo para execução.
 ```
+
+### Notas importantes
+- Inicialmente estavamos utilizando bibliotecas e tipos de dados nativos da linguagem C. No entento não era possível ultrapassar 18 casas 
+decimais corretas. Por isso optamos por utilizar uma biblioteca específica para cálculos com números maiores, nesse caso a biblioteca GMP.
