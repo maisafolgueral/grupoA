@@ -6,10 +6,14 @@
 |Maisa Folgueral                |32121385            |
 |Raphael Vinicius Costa Alencar |32195451            |
 
+<br/>
+
 ### Como instalar a biblioteca utilizada<br/>
 ```
 sudo apt-get install libmpfr-dev
 ```
+
+<br/>
 
 ### Como compilar o programa na plataforma disponibilizada
 Serial:
@@ -21,10 +25,14 @@ Paralelo:
 gcc nome_arquivo.c -o nome_arquivo -fopenmp -lm -lgmp
 ```
 
+<br/>
+
 ### Como executar o programa
 ```
 time ./nome_arquivo
 ```
+
+<br/>
 
 ### Como comprovar que os resultados propostos foram alcançados
 Serial:
@@ -50,6 +58,8 @@ Número máximo de casa decimais alcançadas:
 Total = 1000000
 Corretas = 973357
 ```
+
+<br/>
 
 ### Decomposição de tarefas
 1. Quais são as tarefas no caminho crítico para cada grafo de dependência? Para responder a pergunta, apresente um DAG do seu projeto.
@@ -84,6 +94,7 @@ isto é, o paralelismo médio equivale a 1,43. Considere, para todos os exemplos
 tempo para execução.
 ```
 
+<br/>
+
 ### Notas importantes
-- Inicialmente estavamos utilizando bibliotecas e tipos de dados nativos da linguagem C. No entento não era possível ultrapassar 18 casas 
-decimais corretas. Por isso optamos por utilizar uma biblioteca específica para cálculos com números maiores, nesse caso a biblioteca GMP.
+- Inicialmente, estávamos utilizando bibliotecas e tipos de dados nativos da linguagem C. No entento não era possível ultrapassar 18 casas decimais corretas. Por isso optamos por utilizar uma biblioteca específica para cálculos com números maiores, nesse caso a biblioteca GMP.
