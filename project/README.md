@@ -99,3 +99,4 @@ tempo para execução.
 ### Notas importantes
 - Inicialmente, estávamos utilizando bibliotecas e tipos de dados nativos da linguagem C. No entanto, não era possível ultrapassar 18 casas decimais corretas. Por isso optamos por utilizar uma biblioteca específica para cálculos com números maiores, nesse caso a biblioteca GMP.
 - Para verificar a corretude dos dígitos (casas decimais), utilizamos como referência uma sequência contendo 2 milhões de dígitos disponível no site da NASA. Esta sequência está disponível em: https://apod.nasa.gov/htmltest/gifcity/e.2mil
+- Além de executar os programas em CPU, também tentamos a adaptação de nosso código para executar em GPU com o uso de CUDA. No entanto, não obtivemos sucesso, uma vez que surgiram diversos problemas de compatibilidade com a biblioteca GMP. Procuramos por soluções, porém o problema vai além da execução, estando relacionado à aplicação da biblioteca em processamentos por GPU.
