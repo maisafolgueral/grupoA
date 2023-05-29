@@ -13,7 +13,7 @@ int main()
     mpf_t euler, division, factorial;
 
     // Precision set to unsigned int => {number}{unsigned = U}
-    mpf_set_default_prec(5000000U);
+    mpf_set_default_prec(5500000U);
   
     // Initialize the variables to do the calculus
     mpf_init_set_ui(euler, 1); // Set 1 to euler
@@ -21,7 +21,7 @@ int main()
     mpf_init_set_ui(factorial, 1); // Set 1 to factorial
 
     // Calculate Euler constant
-    for(n = 1, nMax = 100000; n <= nMax; n++) 
+    for(n = 1, nMax = 300000; n <= nMax; n++) 
     {
       // Calculate n!
       mpf_mul_ui(factorial, factorial, n);
@@ -39,7 +39,7 @@ int main()
         printf("Error opening file!\n");
         return 1;
     }
-    gmp_fprintf(fp, "%.1000000Ff\n", euler);
+    gmp_fprintf(fp, "%.3000000Ff\n", euler);
     fclose(fp);
  
     /*
