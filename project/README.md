@@ -38,25 +38,25 @@ time ./nome_arquivo
 Serial:
 <br/>
 
-<img src="https://github.com/maisafolgueral/grupoA/blob/main/project/img/202305120102-serial.png?raw=true" width="600"/> <br/>
+<img src="https://github.com/maisafolgueral/grupoA/blob/main/project/img/20230528190100-serial.png?raw=true" width="600"/> <br/>
 Resultado do Cálculo: https://github.com/maisafolgueral/grupoA/blob/main/project/output-serial.txt
 
 Paralelo:
 <br/>
 
-<img src="https://github.com/maisafolgueral/grupoA/blob/main/project/img/202305121958-paralelo.png?raw=true" width="600"/> <br/>
+<img src="https://github.com/maisafolgueral/grupoA/blob/main/project/img/202305291749-paralelo.png?raw=true" width="600"/> <br/>
 Resultado do Cálculo: https://github.com/maisafolgueral/grupoA/blob/main/project/output-paralelo.txt
 
 Cálculo Speedup:
 ```
 Speedup = Tempo em 1 CPU / Tempo. em p CPUs
-Speedup = 9103.388 / 8274.613 = 1.100
+Speedup = 17426.055 / 15840.690 ≈ 1.100
 ```
 
 Número máximo de casa decimais alcançadas:
 ```
-Total = 1000000
-Corretas = 973357
+Total = 3000000
+Corretas = 1512857
 ```
 
 <br/>
