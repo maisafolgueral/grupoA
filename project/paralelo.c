@@ -3,10 +3,10 @@
 #include <gmp.h>
 
 // Global end of calculus
-#define N_MAX 200000
+#define N_MAX 300000
 
 // Set precicion of digits
-#define PRECISION 5000000U
+#define PRECISION 5500000U
 
 // Global result of calculus
 mpf_t global_euler;
@@ -100,7 +100,7 @@ int main(void)
       printf("Error opening file!\n");
       return 1;
   }
-  gmp_fprintf(fp, "%.1000000Ff\n", global_euler);
+  gmp_fprintf(fp, "%.3000000Ff\n", global_euler);
   fclose(fp);
 
   mpf_clear(global_euler);
